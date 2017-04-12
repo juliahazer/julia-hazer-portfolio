@@ -146,6 +146,10 @@ hr {
 }
 
 /************* SKILLS *************/
+#customContainer {
+	margin: 0 15px;
+}
+
 .skillsRow div {
 	padding: 15px 0px;
 }
@@ -389,6 +393,10 @@ hr {
 	.anchor {
 		height: 60px; 
 		margin-top: -60px;
+	}
+
+	.skillsRow span {
+		font-size: .8em;
 	}
 }
 
