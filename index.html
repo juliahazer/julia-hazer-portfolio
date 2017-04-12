@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Julia Hazer | Web Developer</title>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Font Awesome icons -->
+	<script src="//use.fontawesome.com/bebe4b11d5.js"></script>
+	<!-- Google fonts -->
+	<link href="//fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+	<!-- Custom stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-custom navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Nav Bar: toggle for mobile, Brand -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span> 
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div>
+					<a class="navbar-brand" href="#">JULIA HAZER</a>
+				</div>
+			</div> <!-- /.navbar-header -->
+
+			<!-- Navbar links -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active">
+						<a href="#about">About</a>
+					</li>
+					<li>
+						<a href="#skills">Skills</a>
+					</li>
+					<li>
+						<a href="#portfolio">Portfolio</a>
+					</li>
+					<li>
+						<a href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- About Section -->
+	<span class="anchor" id="about"></span>
+	<section class="success" id="aboutSection">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2>&lt; About /&gt;</h2>
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-md-offset-3 text-sm-center">
+					<img class="img-responsive imgProfile" src="img/about/juliahazer.png" alt="Julia Hazer profile">
+				</div>
+				<div id="aboutDescription" class="col-md-3 col-md-offset-0 
+					col-xs-offset-1 col-xs-10">
+					<p>Welcome! I'm Julia. I am a full-stack developer. 
+					I love to code and solve problems.
+					I enjoy finding and implementing streamlined
+					and user-friendly solutions.
+					I love to learn and take on new challenges.
+					I have over a decade of experience as a researcher
+					in the fields of education and technology.
+					</p>
+				</div>
+			</div>
+			<div class="row resume">
+				<div class="col-xs-12 text-center">
+					<a class="btn btn-lg btn-resume"
+						target="_blank" href="/files/resumeJuliaHazer.pdf">
+						<i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i>
+						Download my resume
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Skills Section -->
+	<span class="anchor" id="skills"></span>
+	<section class="success" id="skillsSection">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<hr>
+					<h2>&lt; Skills /&gt;</h2>
+					<hr>
+				</div>
+			</div>
+			<div class="row skillsRow">
+				<div class="col-lg-12 col-sm-4 text-center">
+					<img data-name="HTML5" src="img/skills/html5.svg" 
+						alt="HTML5"/>
+					<img data-name="CSS3" src="img/skills/css3.svg" 
+						alt="CSS3"/>
+					<img data-name="Bootstrap" src="img/skills/bootstrap.svg" 
+						alt="Bootstrap"/>
+					<img data-name="JavaScript" src="img/skills/javascript.svg" 
+						alt="JavaScript"/>
+					<img data-name="jQuery" src="img/skills/jquery.svg" 
+						alt="jQuery"/>
+					<img data-name="Git" src="img/skills/git.svg" 
+						alt="Git"/>
+					<img data-name="GitHub" src="img/skills/github.svg" 
+						alt="GitHub"/>
+					<img data-name="WordPress" src="img/skills/wordpress.svg" 
+						alt="WordPress"/>
+					<img data-name="Terminal" src="img/skills/terminal.svg" alt="Terminal"/>
+					<img data-name="React" src="img/skills/react.svg" alt="React"/>
+					<img data-name="Python" src="img/skills/python.svg" alt="Python"/>
+					<img data-name="Node.js" src="img/skills/nodejs.svg" alt="Node.js"/>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Portfolio Grid Section -->
+	<span class="anchor" id="portfolio"></span>
+	<section class="success" id="portfolioSection">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<hr>
+					<h2>&lt; Portfolio /&gt;</h2>
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 portfolio-item">
+					<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+						<div class="caption">
+							<div class="caption-content">
+								<i class="fa fa-search-plus fa-3x"></i>
+							</div>
+						</div>
+						<img src="img/portfolio/topSongs.png" class="img-responsive" alt="Top Songs App">
+					</a>
+				</div>
+				<div class="col-sm-4 portfolio-item">
+					<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+						<div class="caption">
+							<div class="caption-content">
+								<i class="fa fa-search-plus fa-3x"></i>
+							</div>
+						</div>
+						<img src="img/portfolio/wavesDesignStudio.png" class="img-responsive" alt="Waves Design Studio">
+					</a>
+				</div>
+				<div class="col-sm-4 portfolio-item">
+					<a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+						<div class="caption">
+							<div class="caption-content">
+								<i class="fa fa-search-plus fa-3x"></i>
+							</div>
+						</div>
+						<img src="img/portfolio/gltfMemberTool.png" class="img-responsive" alt="GLTF Member Verification Tool">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact Section -->
+	<span class="anchor" id="contact"></span>
+	<section id="contactSection">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<hr>
+					<h2>&lt; Contact /&gt;</h2>
+					<hr>
+				</div>
+			</div>
+			<form class="form-horizontal" id="contactForm">
+				<fieldset>
+					<!-- First name -->
+					<div class="form-group">
+						<label for="first_name" class="col-md-4 control-label">
+							First Name</label>
+						<div class="col-md-6 inputGroupContainer">
+							<div class="input-group input-group-lg">
+								<span class="input-group-addon sizing-addon1">
+									<i class="glyphicon glyphicon-user"></i>
+								</span>
+								<input id="first_name" name="first_name" 
+									placeholder="First Name" 
+									class="form-control" type="text"
+									aria-describedby="sizing-addon1">
+							</div>
+						</div>
+					</div>
+
+					<!-- Last name -->
+					<div class="form-group">
+						<label for="last_name" class="col-md-4 control-label">
+							Last Name</label>
+						<div class="col-md-6 inputGroupContainer">
+							<div class="input-group input-group-lg">
+								<span class="input-group-addon sizing-addon2">
+									<i class="glyphicon glyphicon-user"></i>
+								</span>
+								<input id="last_name" name="last_name" 
+									placeholder="Last Name" 
+									class="form-control" type="text" 
+									aria-describedby="sizing-addon2">
+							</div>
+						</div>
+					</div>
+
+					<!-- Email -->
+					<div class="form-group">
+						<label for="email" class="col-md-4 control-label">
+							Email</label>  
+						<div class="col-md-6 inputGroupContainer">
+							<div class="input-group input-group-lg">
+								<span class="input-group-addon" id="sizing-addon3">
+									<i class="glyphicon glyphicon-envelope"></i>
+								</span>
+								<input id="email" name="email" 
+									placeholder="Email Address" 
+									class="form-control" type="text" 
+									aria-describedby="sizing-addon3">
+							</div>
+						</div>
+					</div>
+
+					<!-- Phone -->
+					<div class="form-group">
+						<label for="phone" class="col-md-4 control-label">
+							Phone</label>  
+						<div class="col-md-6 inputGroupContainer">
+							<div class="input-group input-group-lg">
+								<span class="input-group-addon" id="sizing-addon4">
+									<i class="glyphicon glyphicon-earphone"></i>
+								</span>
+								<input id="phone" name="phone" 
+									placeholder="(XXX) XXX-XXXX" 
+									class="form-control" type="text"
+									aria-describedby="sizing-addon4">
+							</div>
+						</div>
+					</div>
+
+					<!-- Message -->
+					<div class="form-group">
+						<label for="comment" class="col-md-4 control-label">
+							Message</label>
+						<div class="col-md-6 inputGroupContainer">
+							<div class="input-group input-group-lg">
+								<span class="input-group-addon">
+									<i class="glyphicon glyphicon-pencil"></i>
+								</span>
+								<textarea rows="5" class="form-control" 
+									id="comment" name="comment" 
+									placeholder="Message"></textarea>
+							</div>
+						</div>
+					</div>
+
+					<!-- Submit button -->
+					<div class="form-group">
+						<label class="col-md-4 control-label"></label>
+						<div class="col-md-6">
+							<button type="submit" class="btn btn-warning">
+								Send <span class="glyphicon glyphicon-send"></span>
+							</button>
+						</div>
+					</div>
+
+					<!-- Success message -->
+					<div class="form-group">
+						<div class="alert alert-success col-md-7 col-md-offset-3" 
+						role="alert" id="successMessage">
+							<i class="msgGlyph glyphicon glyphicon-thumbs-up"></i> 
+							Message sent. Thanks for contacting me. 
+							I will get back to you shortly.
+						</div>
+					</div>
+
+					<!-- Error message -->
+					<div class="form-group">
+						<div class="alert alert-danger col-md-7 col-md-offset-3" 
+						role="alert" id="errorMessage">
+							<i class="glyphicon glyphicon-warning-sign"></i> 
+							Error. Message not sent.
+						</div>
+					</div>
+					
+				</fieldset>
+			</form>
+		</div><!-- /.container -->
+	</section>
+
+	<!-- Footer -->
+	<footer class="text-center">
+		<!-- Social footer - external links -->
+		<div class="footerSocial">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="footer-col col-md-6 col-md-offset-3">	
+						<ul class="list-inline socialMediaBtns">
+							<li>
+								<a href="/files/resumeJuliaHazer.pdf" target="_blank" 
+									class="btnSocial btnSocialResume text-center">
+									<span class="sr-only">Resume</span>
+									<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="//github.com/juliahazer/" target="_blank" 
+									class="btnSocial text-center">
+									<span class="sr-only">GitHub</span>
+									<i class="fa fa-github" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="//www.linkedin.com/in/julia-hazer" 
+									target="_blank" class="btnSocial text-center">
+									<span class="sr-only">LinkedIn</span>
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="//www.codewars.com/users/juliahazer" 
+									target="_blank" class="btnSocial text-center">
+									<span class="sr-only">Codewars</span>
+									<img class="img-responsive" 
+									src="img/footer/codewars.png" alt="Codewars" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Copyright footer -->
+		<div class="footerCopyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						&copy; 2017 Julia Hazer
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Portfolio Modals -->
+	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Project Title</h2>
+							<hr class="star-primary">
+							<img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+							<p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+							<ul class="list-inline item-details">
+								<li>Client:
+									<strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+									</strong>
+								</li>
+								<li>Date:
+									<strong><a href="http://startbootstrap.com">April 2014</a>
+									</strong>
+								</li>
+								<li>Service:
+									<strong><a href="http://startbootstrap.com">Web Development</a>
+									</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Project Title</h2>
+							<hr class="star-primary">
+							<img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+							<p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+							<ul class="list-inline item-details">
+								<li>Client:
+									<strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+									</strong>
+								</li>
+								<li>Date:
+									<strong><a href="http://startbootstrap.com">April 2014</a>
+									</strong>
+								</li>
+								<li>Service:
+									<strong><a href="http://startbootstrap.com">Web Development</a>
+									</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="modal-body">
+							<h2>Top Songs App</h2>
+							<hr>
+							<img src="img/portfolio/topSongs.png" class="img-responsive img-centered" alt="">
+							<p>TBD</p>
+							<ul class="list-inline item-details">
+								<li>Client:
+									<strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+									</strong>
+								</li>
+								<li>Date:
+									<strong>April 2017
+									</strong>
+								</li>
+								<li>Skills Used:
+									<strong>TBD
+									</strong>
+								</li>
+							</ul>
+							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery -->
+	<script
+		src="//code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+	<!-- Bootstrap js -->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Bootstrap Validator -->
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"></script>
+	<!-- Custom JavaScript -->
+	<script src="js/script.js"></script>
+</body>
+</html>
