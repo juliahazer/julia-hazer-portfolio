@@ -1,6 +1,8 @@
 # Julia Hazer Portfolio Site 
 
-### A responsive single page application that gives information about me, my skills, my projects, a contact form (wth validation), and links to my external sites. 
+
+### A responsive single page application that gives information about me, my skills, my projects, a contact form (with validation), and links to my external sites. 
+
 
 #### Features Include:
 * When nav bar links are clicked, smooth page scrolling to anchor sections using animation effects.
