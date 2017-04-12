@@ -146,12 +146,38 @@ hr {
 }
 
 /************* SKILLS *************/
-.skillsRow {
-	background-color: #FF9007;
+.skillsRow div {
+	padding: 15px 0px;
 }
 
 .skillsRow img {
-	height: 80px;
+	height: 60px;
+}
+
+/*toggled off on hover to display skill text*/
+.hiddenText {
+	display: none;
+}
+
+.skillsRow span {
+	color: white;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+/*added on hover*/
+.activeSkill {
+	box-sizing: border-box;
+	background-color: #FF9007;
+	border-radius: 40px;
+}
+
+/*added on hover*/
+.moreTransparent {
+	opacity: .2;
 }
 
 /************* CONTACT *************/

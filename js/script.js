@@ -45,6 +45,16 @@ $(document).ready(function(){
 		}
 	});
 
+	/************ SKILLS EVENTS ************/
+	/*on hover on skill div, add an orange background, 
+	display the skill name, and make the skill img
+	more transparent*/
+	$('.skillsRow div').hover(function(){
+		$(this).toggleClass('activeSkill');
+		$(this).children().eq(0).toggleClass('moreTransparent');
+		$(this).children().eq(1).toggleClass('hiddenText');
+	});
+
 	/************ FUNCTIONS ************/
 	/*updates the active nav link styling, removing styling from the
 	prior active link*/
