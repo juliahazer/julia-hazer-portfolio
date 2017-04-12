@@ -160,6 +160,7 @@ hr {
 }
 
 .skillsRow span {
+	font-size: .9em;
 	color: white;
 	position: absolute;
 	top: 30px;
