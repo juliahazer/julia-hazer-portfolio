@@ -1,14 +1,13 @@
 # Julia Hazer Portfolio Site 
 
-### A responsive single page application that gives information about me, my skills, my projects, a contact form (with validation), and links to my external sites. 
+### A responsive single page application that gives information about me, my projects, my skills, and links to my external sites. 
 
 #### Features Include:
 * When nav bar links are clicked, smooth page scrolling to anchor sections using animation effects.
 
 * Active nav bar links are automatically updated when a user scrolls through the page.
-* The skills icons (which have been customized using SVG) are responsive.
 * An interactive portfolio, using modals to display additional info when a user clicks a project.
-* A user can submit a contact form, which is checked using validation, and when complete, is emailed to me using PHP (NOTE: needs an SMTP server, so this will feature will not work on GitHub Pages).
+* The skills icons (which have been customized using SVG) are responsive.
 * Site is responsive to different device screen sizes.
 
 #### Resources Used:
@@ -23,6 +22,4 @@
 * HTML / CSS
 * jQuery
 * JavaScript
-* AJAX
 * SVG
-* PHP
