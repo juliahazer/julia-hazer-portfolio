@@ -147,7 +147,7 @@ hr {
 
 /************* SKILLS *************/
 #customContainer {
-	margin: 0 15px;
+	margin: 0 15px 10px 15px;
 }
 
 .skillsRow div {
@@ -183,21 +183,6 @@ hr {
 /*added on hover*/
 .moreTransparent {
 	opacity: .2;
-}
-
-/************* CONTACT *************/
-#contactSection form label {
-	font-size: .9em;
-	color: #0E6FA9;
-}
-
-#comment {
-	height: auto;
-}
-
-.msgGlyph {
-	display: relative;
-	top: 4px;
 }
 
 /************* PORTFOLIO GRID *************/
@@ -383,22 +368,13 @@ hr {
 		text-align: center;
 	}
 
-	.text-sm-center {
+	#aboutDescription .text-sm-center {
 		text-align: center;
 	}
 
-	.text-sm-center .imgProfile {
+	#aboutDescription .text-sm-center .imgProfile {
 		margin: 0 auto;
 		padding-bottom: 8px;
-	}
-
-	.form-horizontal .form-group {
-		margin-right: 15px;
-		margin-left: 15px;
-	}
-
-	.form-group {
-		margin-bottom: 5px;
 	}
 }
 

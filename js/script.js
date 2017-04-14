@@ -3,9 +3,6 @@ $(document).ready(function(){
 	var $navbarA = $('.navbar-custom a');
 	var $navbarNavLi = $('.navbar-custom .navbar-nav li');
 
-	$("#contactForm #successMessage").hide();
-	$("#contactForm #errorMessage").hide();
-
 	// Highlight the top nav as page scrolling occurs
 	$('body').scrollspy({
 		target: '.navbar-fixed-top',
@@ -46,10 +43,10 @@ $(document).ready(function(){
 	});
 
 	/************ SKILLS EVENTS ************/
-	/*on hover on skill div, add an orange background, 
+	/*on hover/mouseenter on skill div, add an orange background, 
 	display the skill name, and make the skill img
-	more transparent*/
-	$('.skillsRow div').hover(function(){
+	more transparent, on mouseleave toggle to remove styling*/
+	$('.skillsRow div').on('mouseenter mouseleave', function(){
 		$(this).toggleClass('activeSkill');
 		$(this).children().eq(0).toggleClass('moreTransparent');
 		$(this).children().eq(1).toggleClass('hiddenText');
@@ -69,100 +66,4 @@ $(document).ready(function(){
 			$clickedLink.parent().addClass('active');
 		}
 	}
-
-	/************ CONTACT FORM SUBMISSION ************/
-	/*uses bootstrapValidator and php/contact-form.php
-	Must have a working SMTP server to work (i.e., send the email)*/
-	$('#contactForm').bootstrapValidator({
-		feedbackIcons: {
-			valid: 'glyphicon glyphicon-ok',
-			invalid: 'glyphicon glyphicon-remove',
-			validating: 'glyphicon glyphicon-refresh'
-		},
-		fields: {
-			first_name: {
-				validators: {
-						stringLength: {
-						min: 1,
-					},
-						notEmpty: {
-						message: 'Please enter your first name.'
-					}
-				}
-			},
-			last_name: {
-				validators: {
-					 stringLength: {
-						min: 2,
-					},
-					notEmpty: {
-						message: 'Please enter your last name.'
-					}
-				}
-			},
-			email: {
-				validators: {
-					notEmpty: {
-						message: 'Please enter your email address.'
-					},
-					emailAddress: {
-						message: 'Please enter a valid email address.'
-					}
-				}
-			},
-			phone: {
-				validators: {
-					notEmpty: {
-						message: 'Please enter your phone number.'
-					},
-					phone: {
-						country: 'US',
-						message: 'Please enter a vaild phone number with area code.'
-					}
-				}
-			},
-			comment: {
-				validators: {
-					  stringLength: {
-						min: 1,
-						max: 300,
-						message:'Please enter no more than 300 characters.'
-					},
-					notEmpty: {
-						message: 'Please enter a message.'
-					}
-					}
-				}
-			}
-		})
-		.on('success.form.bv', function(e) {
-			// Prevent form submission
-			e.preventDefault();
-
-			// Get the form instance
-			var $form = $(e.target);
-
-			var formStr = $form.serialize();
-
-			/* AJAX Post request to contact-form.php 
-			to send email to me, with the contact form data. */
-			$.ajax({
-				url: "../php/contact-form.php",
-				type: "POST",
-				data: formStr
-			}).then(function(data){
-				/*Clears the form if the form is successfully submitted
-					and shows the success message */
-				$('#contactForm').bootstrapValidator('resetForm', true);
-				$("#errorMessage").hide();
-				$('#successMessage').show();
-			}).catch(function(err){
-				/*If an error occurs, saves the form field data, 
-					but allows user to resubmit,
-					and shows the error message */
-				$('#contactForm').data('bootstrapValidator').resetForm();
-				$('#successMessage').hide();
-				$("#errorMessage").show();
-			});
-		});
 });
