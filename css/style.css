@@ -14,14 +14,10 @@ body {
 
 h2 {
 	color: #FF9007;
-}
-
-hr {
-	border: 0;
-	height: 2px; 
-	background-image: -webkit-linear-gradient(left, rgba(14,111,169,0.1), rgba(14,111,169,0.75), rgba(14,111,169,0.1));
-	background-image: -o-linear-gradient(left, rgba(14,111,169,0.1), rgba(14,111,169,0.75), rgba(14,111,169,0.1));
-	background-image: linear-gradient(to right, rgba(14,111,169,0.1), rgba(14,111,169,0.75), rgba(14,111,169,0.1)); 
+	border-top: 1px solid #75B8E0;
+	border-bottom: 1px solid #75B8E0;
+	padding: 10px 0;
+	margin-bottom: 20px;
 }
 
 .anchor {
@@ -310,7 +306,11 @@ hr {
 /************* FOOTER *************/
 .footerSocial {
 	background-color: #0E6FA9;
-	padding: 10px 0;
+	padding: 13px 0 0 0;
+}
+
+.footerSocial .container-fluid .row {
+	height: 70px;
 }
 
 .footerSocial .socialMediaBtns li {
@@ -321,12 +321,8 @@ hr {
 	display: inline-block;
 	border-radius: 50%;
 	background-color: #8A8A7A;
-	color: white;
-	width: 45px;
-	height: 45px;
-	line-height: 45px;
-	font-size: 30px;
 	text-decoration: none;
+	padding: 8px;
 }
 
 .footerSocial .btnSocial:hover,
@@ -335,16 +331,11 @@ hr {
 	color: white;
 }
 
-.footerSocial .btnSocialResume {
-	font-size: 25px;
-	padding-left: 5px;
-}
-
 .footerSocial .btnSocial img {
-	display: inline-block;
-	height: 35px;
-	padding-bottom: 7px;
-	margin: auto;
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
 }
 
 .footerCopyright {
@@ -368,11 +359,11 @@ hr {
 		text-align: center;
 	}
 
-	#aboutDescription .text-sm-center {
+	.text-sm-center {
 		text-align: center;
 	}
 
-	#aboutDescription .text-sm-center .imgProfile {
+	.text-sm-center .imgProfile {
 		margin: 0 auto;
 		padding-bottom: 8px;
 	}
