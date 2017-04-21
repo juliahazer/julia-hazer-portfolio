@@ -20,6 +20,16 @@ h2 {
 	margin-bottom: 20px;
 }
 
+h3 {
+	color: #0E6FA9;
+	font-weight: strong;
+}
+
+.sectionContent {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
 .btnCustom {
 	color: white;
 	background-color: #3088BC;
@@ -135,10 +145,6 @@ h2 {
 	border-radius: 50%;
 }
 
-#aboutSection .btnResume {
-	margin-top: 15px;
-}
-
 #aboutSection .fa-file-pdf-o {
 	margin-right: 5px;
 }
@@ -193,21 +199,28 @@ h2 {
 }
 
 /************* PORTFOLIO GRID *************/
-/*Resource: https://github.com/BlackrockDigital/
-	startbootstrap-freelancer/blob/master/css/freelancer.css;*/
-#portfolioSection .portfolio-item {
+.imgPortfolio {
+	width: 700px;
+}
+
+.techUsed {
+	color: #0E6FA9;
+}
+
+/*#portfolioSection .portfolio-item {
 	margin: 0 0 15px;
 	right: 0;
-}
+}*/
 
 #portfolioSection .portfolio-item .portfolio-link {
 	display: block;
 	position: relative;
-	max-width: 400px;
+/*	max-width: 400px;*/
 	margin: 0 auto;
 }
+
 #portfolioSection .portfolio-item .portfolio-link .caption {
-	background: rgba(24, 188, 156, 0.9);
+	background: rgba(225, 144, 7, 0.9);
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -232,87 +245,9 @@ h2 {
 	color: white;
 }
 
-#portfolioSection .portfolio-item .portfolio-link .caption .caption-content i {
+/*#portfolioSection .portfolio-item .portfolio-link .caption .caption-content i {
 	margin-top: -12px;
-}
-
-#portfolioSection .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolioSection .portfolio-item .portfolio-link .caption .caption-content h4 {
-	margin: 0;
-}
-
-#portfolioSection * {
-	z-index: 2;
-}
-
-/************* PORTFOLIO MODALS *************/
-.portfolio-modal .modal-content {
-	border-radius: 0;
-	background-clip: border-box;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	border: none;
-	min-height: 100%;
-	padding: 100px 0;
-	text-align: center;
-}
-
-.portfolio-modal .modal-content h2 {
-	margin: 0;
-	font-size: 3em;
-}
-
-.portfolio-modal .modal-content img {
-	margin-bottom: 30px;
-}
-
-.portfolio-modal .modal-content .item-details {
-	margin: 30px 0;
-}
-
-.portfolio-modal .close-modal {
-	position: absolute;
-	width: 75px;
-	height: 75px;
-	background-color: transparent;
-	top: 25px;
-	right: 25px;
-	cursor: pointer;
-}
-
-.portfolio-modal .close-modal:hover {
-	opacity: 0.3;
-}
-
-.portfolio-modal .close-modal .lr {
-	height: 75px;
-	width: 1px;
-	margin-left: 35px;
-	background-color: #2C3E50;
-	transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	/* IE 9 */
-	-webkit-transform: rotate(45deg);
-	/* Safari and Chrome */
-	z-index: 1051;
-}
-
-.portfolio-modal .close-modal .lr .rl {
-	height: 75px;
-	width: 1px;
-	background-color: #2C3E50;
-	transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	/* IE 9 */
-	-webkit-transform: rotate(90deg);
-	/* Safari and Chrome */
-	z-index: 1052;
-}
-
-.portfolio-modal .modal-backdrop {
-	opacity: 0;
-	display: none;
-}
+}*/
 
 /************* FOOTER *************/
 .footerSocial {
@@ -361,6 +296,29 @@ h2 {
 @media (min-width: 768px) {
 	#portfolioSection .portfolio-item {
 		margin: 0 0 30px;
+	}
+}
+
+/*Medium devices and smaller*/
+@media (max-width: 1199px) {
+	.colPortfolio {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.colPortfolio .portfolioContent {
+		text-align: left;
+		padding: 0 15px;
+		max-width: 800px;
+		margin: 0 auto 10px auto;
+	}
+
+	.portfolioButtonP {
+		padding-bottom: 20px;
+	}
+
+	.imgPortfolio {
+		margin: 0 auto;
 	}
 }
 
