@@ -20,6 +20,20 @@ h2 {
 	margin-bottom: 20px;
 }
 
+.btnCustom {
+	color: white;
+	background-color: #3088BC;
+	font-size: 20px;
+	transition: all 0.3s ease-in-out;
+}
+
+.btnCustom:hover,
+.btnCustom:focus,
+.btnCustom:active {
+	color: white;
+	background: #FFA435;
+}
+
 .anchor {
 	display: block;
 	height: 70px; /*same height as navbar*/
@@ -121,20 +135,8 @@ h2 {
 	border-radius: 50%;
 }
 
-#aboutSection .btn-resume {
-	color: white;
-	background-color: #3088BC;
-	font-size: 20px;
-	transition: all 0.3s ease-in-out;
+#aboutSection .btnResume {
 	margin-top: 15px;
-}
-
-#aboutSection .btn-resume:hover,
-#aboutSection .btn-resume:focus,
-#aboutSection .btn-resume:active,
-#aboutSection .btn-resume.active {
-	color: white;
-	background: #FFA435;
 }
 
 #aboutSection .fa-file-pdf-o {
@@ -179,6 +181,15 @@ h2 {
 /*added on hover*/
 .moreTransparent {
 	opacity: .2;
+}
+
+/************* CONTACT *************/
+#contactSection {
+	padding-bottom: 15px;
+}
+
+#contactSection .btnContact {
+	margin-bottom: 15px;
 }
 
 /************* PORTFOLIO GRID *************/
