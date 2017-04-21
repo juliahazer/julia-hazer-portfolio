@@ -61,6 +61,8 @@
 					<h2>&lt; About /&gt;</h2>
 				</div>
 			</div>
+		</div>
+		<div class="container-fluid sectionContent"
 			<div class="row">
 				<div class="col-md-3 col-md-offset-3 text-sm-center">
 					<img class="img-responsive imgProfile" src="img/about/juliahazer.png" alt="Julia Hazer profile">
@@ -72,18 +74,9 @@
 					I enjoy finding and implementing streamlined
 					and user-friendly solutions.
 					I love to learn and take on new challenges.
-					I have over a decade of experience as a researcher
+					I also have over a decade of experience as a researcher
 					in the fields of education and technology.
 					</p>
-				</div>
-			</div>
-			<div class="row resume">
-				<div class="col-xs-12 text-center">
-					<a class="btn btn-lg btnCustom btnResume"
-						target="_blank" href="//github.com/juliahazer/julia-hazer-portfolio/blob/master/files/resumeJuliaHazer.pdf?raw=true">
-						<i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i>
-						Download my resume
-					</a>
 				</div>
 			</div>
 		</div>
@@ -98,35 +91,115 @@
 					<h2>&lt; Portfolio /&gt;</h2>
 				</div>
 			</div>
+		</div>
+		<div class="container-fluid sectionContent">
 			<div class="row">
-				<div class="col-sm-4 portfolio-item">
-					<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+				<div class="col-lg-4 col-lg-offset-2
+					col-md-12 col-md-offset-0 colPortfolio">
+					<h3>Top Songs App</h3>
+					<p class="portfolioContent">
+						A single page application that displays top songs based on iTunes chart 
+						categories and countries, and allows users to watch &amp; control YouTube 
+						videos of these songs. Features include: users can tailor the top song 
+						results by selecting music categories, countries, and number of songs 
+						to display; users can control the music videos using buttons outside of 
+						the YouTube player; ensures more than one video does not play at a time; 
+						automatically plays the next video when the previous video ends; and 
+						users can view artists' bios.
+					</p>
+					<p class="portfolioContent">
+						<span class="techUsed">Tech used</span>: jQuery, JavaScript, 
+						Bootstrap, AJAX, JSON, APIs (iTunes &amp; YouTube)
+					</p>
+					<p class="portfolioButtonP">
+						<a class="btn btn-lg btnCustom" 
+							href="//juliahazer.github.io/top-songs-app/"
+							target="_blank">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+							Demo
+						</a>
+						<a class="btn btn-lg btnCustom" 
+							href="//github.com/juliahazer/top-songs-app"
+							target="_blank">
+							<i class="fa fa-file-code-o fa-lg" aria-hidden="true"></i>
+							Code
+						</a>
+					</p>
+				</div>
+				<div class="col-lg-5 col-md-12 text-center colPortfolio portfolio-item">
+					<a class="portfolio-link"> 
 						<div class="caption">
 							<div class="caption-content">
-								<i class="fa fa-search-plus fa-3x"></i>
+								<i class="fa fa-eye fa-lg"></i>
+								Link to Demo
 							</div>
 						</div>
-						<img src="img/portfolio/topSongs.png" class="img-responsive" alt="Top Songs App">
+						<img src="img/portfolio/topSongs.png" class="img-responsive imgPortfolio" alt="Top Songs App">
 					</a>
 				</div>
-				<div class="col-sm-4 portfolio-item">
-					<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+			</div>
+
+			<hr>
+
+			<div class="row">
+				<div class="col-lg-4 col-lg-offset-2
+					col-md-12 col-md-offset-0 colPortfolio">
+					<h3>GLTF Membership Vertification</h3>
+					<p class="portfolioContent">
+						A tool built for and currently used by the GLTF Tennis League (a 500+ active member non-profit in the SF Bay Area) to cross-reference two databases (GLTF members and players on U.S. Tennis Association teams). This tool allows administrators to ensure that players on GLTF's current USTA teams (17 teams) have active GLTF memberships, and if not, contact them to obtain or renew their memberships. Checking membership status is accomplished by first compiling a list of active USTA GLTF players (i.e., clicking a button that results in AJAX calls to each USTA GLTF team webpage), and then cross-referencing this USTA player list with the GLTF member database (obtained through the WildApricot API). The tool also includes features to easily resolve name discrepanies between the two databases and update the GLTF membership cut-off date for each season.
+					</p>
+					<p class="portfolioContent">
+						<span class="techUsed">Tech used</span>: jQuery, JavaScript, AJAX, 
+						CORS, JSON, API (Wild Apricot)
+					</p>
+					<p class="portfolioButtonP">
+						<a class="btn btn-lg btnCustom">
+							<i class="fa fa-ban fa-lg" aria-hidden="true"></i>
+							Not publically available
+						</a>
+					</p>
+				</div>
+				<div class="col-lg-5 col-md-12 text-center colPortfolio portfolio-item">
+					<a class="portfolio-link"> 
 						<div class="caption">
 							<div class="caption-content">
-								<i class="fa fa-search-plus fa-3x"></i>
+								<i class="fa fa-ban fa-lg"></i>
+								Not publically available due to confidential member info
 							</div>
 						</div>
-						<img src="img/portfolio/gltfMemberTool.png" class="img-responsive" alt="GLTF Member Verification Tool">
+						<img src="img/portfolio/gltfMemberTool.png" class="img-responsive imgPortfolio" alt="GLTF Member Verification Tool">
 					</a>
 				</div>
-				<div class="col-sm-4 portfolio-item">
-					<a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+			</div>
+
+			<hr>
+
+			<div class="row">
+				<div class="col-lg-4 col-lg-offset-2
+					col-md-12 col-md-offset-0 colPortfolio">
+					<h3>Waves Design Studio</h3>
+					<p class="portfolioContent">
+						Lorem Ipsum...
+					</p>
+					<p class="portfolioContent">
+						<span class="techUsed">Tech used</span>: WordPress (custom child theme), HTML, CSS
+					</p>
+					<p class="portfolioButtonP">
+						<a class="btn btn-lg btnCustom">
+							<i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+							Website
+						</a>
+					</p>
+				</div>
+				<div class="col-lg-5 col-md-12 text-center colPortfolio portfolio-item">
+					<a class="portfolio-link"> 
 						<div class="caption">
 							<div class="caption-content">
-								<i class="fa fa-search-plus fa-3x"></i>
+								<i class="fa fa-eye fa-lg"></i>
+								Link to Website
 							</div>
 						</div>
-						<img src="img/portfolio/wavesDesignStudio.png" class="img-responsive" alt="Waves Design Studio">
+						<img src="img/portfolio/wavesDesignStudio.png" class="img-responsive imgPortfolio" alt="Waves Design Studio">
 					</a>
 				</div>
 			</div>
@@ -144,7 +217,7 @@
 			</div>
 		</div>
 		<div class="container-fluid" id="customContainer">
-			<div class="row skillsRow">
+			<div class="row skillsRow sectionContent">
 				<div class="col-lg-1 col-lg-offset-3 col-xs-3 col-xs-offset-0 text-center">
 					<img src="img/skills/javascript.svg" 
 					alt="JavaScript"/>
@@ -214,6 +287,8 @@
 					<h2>&lt; Contact /&gt;</h2>
 				</div>
 			</div>
+		</div>
+		<div class="container-fluid sectionContent">
 			<div class="row">
 				<div class="col-md-2 col-md-offset-4 col-sm-4 col-sm-offset-2 
 						col-xs-5 col-xs-offset-1 text-center">
@@ -288,107 +363,7 @@
 	</footer>
 
 	<!-- Portfolio Modals -->
-	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-content">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl">
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2">
-						<div class="modal-body">
-							<h2>Top Songs App</h2>
-							<h3><a href="//juliahazer.github.io/top-songs-app/"
-							target="_blank">
-								Link to App
-							</a></h3>
-							<hr>
-							<img src="img/portfolio/topSongs.png" class="img-responsive img-centered" alt="Top Songs App">
-							<p>A single page application that displays top songs based on iTunes chart categories and countries, and allows users to watch &amp; control YouTube videos of these songs.</p>
-							<ul>Features Include:
-								<li>User can tailor the top song results, by selecting 
-									different:
-									<ul>
-										<li>music categories (e.g., Pop, Rock, Country, etc.),</li>
-										<li>countries (e.g., US, France, etc.), and</li>
-										<li>number of songs to display (Top 5, 10, 15, etc.)</li>
-									</ul>
-								</li>
-								<li>User can control the music videos using buttons outside of the YouTube Player (e.g., pause, play, mute, previous, next).</li>
-								<li>Ensures more than one video does not play at a time (to reduce audio issues). That is, automatically pauses a playing video when another is played.</li>
-								<li>Automatically plays the next video, when the previous video ends.</li>
-								<li>User can click a button to view a musician's bio.</li>
-							</ul>
-							<ul>Resources Used:
-								<li><a href="//rss.itunes.apple.com/" 
-									target="_blank">iTunes RSS Feed</a></li>
-								<li><a href="//developers.google.com/youtube/v3/getting-started" 
-									target="_blank">YouTube Data API</a></li>
-								<li><a href="//developers.google.com/youtube/iframe_api_reference" 
-									target="_blank">YouTube iFrame Player API</a></li>
-							</ul>
-							<ul class="list-inline item-details">
-								<li>Client:
-									<strong>Self
-									</strong>
-								</li>
-								<li>Date:
-									<strong>April 2017
-									</strong>
-								</li>
-								<li>Technology Used:
-									<strong>jQuery, JavaScript, Bootstrap, AJAX, JSON, APIs
-									</strong>
-								</li>
-							</ul>
-							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-content">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl">
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2">
-						<div class="modal-body">
-							<h2>GLTF Member Verification Tool</h2>
-							<hr>
-							<img src="img/portfolio/gltfMemberTool.png" class="img-responsive img-centered" alt="">
-							<p>CONFIDENTIAL MEMBER DATA - SO NO LINK TO LIVE APP...Mauris et sagittis justo, et fermentum nulla. Fusce eget lorem volutpat, maximus tortor eget, sodales ipsum. Sed nec elit id diam vehicula tempor nec ut mi. Nunc congue ultrices velit, quis ultricies enim tincidunt at. Phasellus euismod id metus et luctus. Nam malesuada vehicula mi sit amet vulputate. Vivamus porta purus tincidunt, aliquet risus a, vestibulum lacus.</p>
-							<ul class="list-inline item-details">
-								<li>Client:
-									<strong>GLTF Tennis League
-									</strong>
-								</li>
-								<li>Date:
-									<strong>March 2017
-									</strong>
-								</li>
-								<li>Skills Used:
-									<strong>jQuery, AJAX, API
-									</strong>
-								</li>
-							</ul>
-							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+<!-- 	<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-content">
 			<div class="close-modal" data-dismiss="modal">
 				<div class="lr">
@@ -428,7 +403,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>  -->
 
 	<!-- jQuery -->
 	<script
