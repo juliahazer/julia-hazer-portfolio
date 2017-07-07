@@ -1,8 +1,8 @@
 /* COLOR HEX INFO:
 	http://paletton.com/#uid=73u0u0kkYKpahVTgcQmpjDVv4yf
 	DARKER orange: #FF9007
-	LIGHTER orange: #FFA435 
-	blue: #4F9FCF 
+	LIGHTER orange: #FFA435
+	blue: #4F9FCF
 	darker blue: #0E6FA9
 	lighter blue: #75B8E0;
 	gray: #8A8A7A */
@@ -33,7 +33,10 @@ h3 {
 .btnCustom {
 	color: white;
 	background-color: #3088BC;
-	font-size: 20px;
+	font-size: 17px;
+	margin-right: 1px;
+	margin-left: 1px;
+	margin-top: 3px;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -53,7 +56,7 @@ h3 {
 
 /************* GRADIENTS ************/
 .navbar, .footerCopyright {
-	/* fallback for old browsers*/ 
+	/* fallback for old browsers*/
 	background: #4F9FCF;
 	/* Chrome 10-25, Safari 5.1-6 */
 	background: -webkit-linear-gradient(to right, #4F9FCF, #75B8E0);
@@ -64,7 +67,7 @@ h3 {
 
 /************* NAV BAR *************/
 .navbar-custom {
-	background-color: #4F9FCF; 
+	background-color: #4F9FCF;
 	border-color: transparent;
 }
 
@@ -151,7 +154,7 @@ h3 {
 
 /************* SKILLS *************/
 #customContainer {
-	margin: 0 15px 10px 15px;
+	margin: 30px 15px 30px 15px;
 }
 
 .skillsRow div {
@@ -198,6 +201,10 @@ h3 {
 	margin-bottom: 15px;
 }
 
+#contactDiv {
+	margin: 30px 0px;
+}
+
 /************* PORTFOLIO GRID *************/
 .techUsed {
 	color: #0E6FA9;
@@ -205,6 +212,10 @@ h3 {
 
 .portfolioItem {
 	max-width: 900px;
+}
+
+.portfolioContent {
+	font-size: 17px;
 }
 
 #portfolioSection .portfolioItem .portfolioLink {
@@ -295,7 +306,7 @@ h3 {
 	}
 }
 
-/*Small devices and larger*/ 
+/*Small devices and larger*/
 @media (min-width: 768px) {
 	#portfolioSection .portfolioItem {
 		margin: 0 0 30px;
@@ -361,7 +372,7 @@ h3 {
 @media (max-width: 767px) {
 	/*reduces height to match smaller navbar on mobile*/
 	.anchor {
-		height: 60px; 
+		height: 60px;
 		margin-top: -60px;
 	}
 }

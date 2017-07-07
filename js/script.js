@@ -14,7 +14,8 @@ $(document).ready(function(){
 		animates scroll to page anchors*/
 	$navbarA.on('click', function(e) {
 		//Update the active nav link
-		updateActiveNavLink($(e.target));
+		/*DO I NEED THIS FUNCTION???*/
+		// updateActiveNavLink($(e.target));
 
 		// Make sure this.hash has a value before overriding default behavior
 		if (this.hash !== "") {
@@ -28,10 +29,10 @@ $(document).ready(function(){
 			}
 			else {
 				hash = this.hash;
-			}	
+			}
 
 			// Using jQuery's animate() method to add smooth page scroll
-			// 800 specifies the number of milliseconds it takes to 
+			// 800 specifies the number of milliseconds it takes to
 			// scroll to the specified area
 			$('html, body').animate({
 				scrollTop: $(hash).offset().top
@@ -43,7 +44,7 @@ $(document).ready(function(){
 	});
 
 	/************ SKILLS EVENTS ************/
-	/*on hover/mouseenter on skill div, add an orange background, 
+	/*on hover/mouseenter on skill div, add an orange background,
 	display the skill name, and make the skill img
 	more transparent, on mouseleave toggle to remove styling*/
 	$('.skillsRow div').on('mouseenter mouseleave', function(){
