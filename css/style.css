@@ -8,373 +8,376 @@
 	gray: #8A8A7A */
 
 body {
-	font-family: 'Lato', sans-serif;
-	font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
 }
 
 h2 {
-	color: #FF9007;
-	border-top: 1px solid #75B8E0;
-	border-bottom: 1px solid #75B8E0;
-	padding: 10px 0;
-	margin-bottom: 20px;
+  color: #ff9007;
+  border-top: 1px solid #75b8e0;
+  border-bottom: 1px solid #75b8e0;
+  padding: 10px 0;
+  margin-bottom: 20px;
 }
 
 h3 {
-	color: #0E6FA9;
-	font-weight: strong;
+  color: #0e6fa9;
+  font-weight: strong;
 }
 
 .sectionContent {
-	padding-top: 15px;
-	padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .btnCustom {
-	color: white;
-	background-color: #3088BC;
-	font-size: 17px;
-	margin-right: 1px;
-	margin-left: 1px;
-	margin-top: 3px;
-	transition: all 0.3s ease-in-out;
+  color: white;
+  background-color: #3088bc;
+  font-size: 17px;
+  margin-right: 1px;
+  margin-left: 1px;
+  margin-top: 3px;
+  transition: all 0.3s ease-in-out;
 }
 
 .btnCustom:hover,
 .btnCustom:focus,
 .btnCustom:active {
-	color: white;
-	background: #FFA435;
+  color: white;
+  background: #ffa435;
 }
 
 .anchor {
-	display: block;
-	height: 70px; /*same height as navbar*/
-	margin-top: -70px; /*same height as navbar*/
-	visibility: hidden;
+  display: block;
+  height: 70px; /*same height as navbar*/
+  margin-top: -70px; /*same height as navbar*/
+  visibility: hidden;
 }
 
 /************* GRADIENTS ************/
-.navbar, .footerCopyright {
-	/* fallback for old browsers*/
-	background: #4F9FCF;
-	/* Chrome 10-25, Safari 5.1-6 */
-	background: -webkit-linear-gradient(to right, #4F9FCF, #75B8E0);
-	background: -o-linear-gradient(to right, #4F9FCF, #75B8E0);
-	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background: linear-gradient(to right, #4F9FCF, #75B8E0);
+.navbar,
+.footerCopyright {
+  /* fallback for old browsers*/
+  background: #4f9fcf;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #4f9fcf, #75b8e0);
+  background: -o-linear-gradient(to right, #4f9fcf, #75b8e0);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #4f9fcf, #75b8e0);
 }
 
 /************* NAV BAR *************/
 .navbar-custom {
-	background-color: #4F9FCF;
-	border-color: transparent;
+  background-color: #4f9fcf;
+  border-color: transparent;
 }
 
 .navbar-custom .navbar-header {
-	padding-top: 10px;
+  padding-top: 10px;
 }
 
 /*hamburger menu on smaller screens*/
 .navbar-custom .navbar-toggle {
-	background-color: #FF9007;
-	border-color: #FF9007;
-	text-transform: uppercase;
-	color: white;
-	font-size: .8px;
+  background-color: #ff9007;
+  border-color: #ff9007;
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.8px;
 }
 
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-	background-color: #FFA435;
+  background-color: #ffa435;
 }
 
 /*Julia Hazer brand*/
 .navbar-custom .navbar-brand {
-	font-family: 'Work Sans', sans-serif;
-	font-size: 2em;
-	color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2em;
+  color: white;
 }
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-	color: #0E6FA9;
+  color: #0e6fa9;
 }
 
 /*Nav bar links*/
 .navbar-custom .navbar-nav {
-	margin: 10px 5px 10px 0px;
+  margin: 10px 5px 10px 0px;
 }
 
 .navbar-custom .navbar-nav li a {
-	text-transform: uppercase;
-	font-weight: 400;
-	color: white;
-	font-size: 19px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  font-size: 19px;
 }
 
 .navbar-custom .navbar-nav li a:hover {
-	color: #0E6FA9;
-	outline: none;
+  color: #0e6fa9;
+  outline: none;
 }
 
 .navbar-custom .navbar-nav li a:focus {
-	color: #4F9FCF;
-	outline: none;
+  color: #4f9fcf;
+  outline: none;
 }
 
 /*Currently selected/active nav bar links*/
 .navbar-custom .navbar-nav > .active > a {
-	border-radius: 0;
-	color: white;
-	background-color: #FF9007;
+  border-radius: 0;
+  color: white;
+  background-color: #ff9007;
 }
 
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-	color: white;
-	background-color: #FFA435;
+  color: white;
+  background-color: #ffa435;
 }
 
 /************* ABOUT *************/
 #about {
-	margin-top: 0px;
+  margin-top: 0px;
 }
 
 #aboutSection .imgProfile {
-	height: 300px;
-	border-radius: 50%;
+  height: 300px;
+  border-radius: 50%;
 }
 
 #aboutSection .fa-file-pdf-o {
-	margin-right: 5px;
+  margin-right: 5px;
 }
 
 /************* SKILLS *************/
 #customContainer {
-	margin: 30px 15px 30px 15px;
+  margin: 30px 15px 30px 15px;
 }
 
 .skillsRow div {
-	padding: 15px 0px;
+  padding: 15px 0px;
 }
 
 .skillsRow img {
-	height: 60px;
+  height: 60px;
 }
 
 /*toggled off on hover to display skill text*/
 .hiddenText {
-	display: none;
+  display: none;
 }
 
 .skillsRow span {
-	font-size: .9em;
-	color: white;
-	position: absolute;
-	top: 30px;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
+  font-size: 0.9em;
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 /*added on hover*/
 .activeSkill {
-	box-sizing: border-box;
-	background-color: #FF9007;
-	border-radius: 40px;
+  box-sizing: border-box;
+  background-color: #ff9007;
+  border-radius: 40px;
 }
 
 /*added on hover*/
 .moreTransparent {
-	opacity: .2;
+  opacity: 0.2;
 }
 
 /************* CONTACT *************/
 #contactSection {
-	padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 #contactSection .btnContact {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+#contactSection .btnContact i {
+  padding-right: 5px;
 }
 
 #contactDiv {
-	margin: 30px 0px;
+  margin: 30px 0px;
 }
 
 /************* PORTFOLIO GRID *************/
 .techUsed {
-	color: #0E6FA9;
+  color: #0e6fa9;
 }
 
 .portfolioItem {
-	max-width: 900px;
+  max-width: 900px;
 }
 
 .portfolioContent {
-	font-size: 17px;
+  font-size: 17px;
 }
 
 #portfolioSection .portfolioItem .portfolioLink {
-	display: block;
-	position: relative;
-	margin: 0 auto;
+  display: block;
+  position: relative;
+  margin: 0 auto;
 }
 
 #portfolioSection .portfolioItem .portfolioLink .caption {
-	background: rgba(225, 144, 7, 0.9);
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	transition: all ease 0.5s;
-	-webkit-transition: all ease 0.5s;
-	-moz-transition: all ease 0.5s;
+  background: rgba(225, 144, 7, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
 }
 
 #portfolioSection .portfolioItem .portfolioLink .caption:hover {
-	opacity: 1;
+  opacity: 1;
 }
 
 #portfolioSection .portfolioItem .portfolioLink .caption .captionContent {
-	position: absolute;
-	width: 100%;
-	height: 20px;
-	font-size: 23px;
-	padding: 0 10px;
-	text-align: center;
-	top: 50%;
-	margin-top: -12px;
-	color: white;
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 23px;
+  padding: 0 10px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
 }
 
 .linkForbidden {
-	pointer-events: none;
-	cursor: default;
+  pointer-events: none;
+  cursor: default;
 }
 
 /************* FOOTER *************/
 .footerSocial {
-	background-color: #0E6FA9;
-	padding: 13px 0 0 0;
+  background-color: #0e6fa9;
+  padding: 13px 0 0 0;
 }
 
 .footerSocial .container-fluid .row {
-	height: 70px;
+  height: 70px;
 }
 
 .footerSocial .socialMediaBtns li {
-	margin-left: 15px;
+  margin-left: 15px;
 }
 
 .footerSocial .btnSocial {
-	display: inline-block;
-	border-radius: 50%;
-	background-color: #8A8A7A;
-	text-decoration: none;
-	padding: 8px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #8a8a7a;
+  text-decoration: none;
+  padding: 8px;
 }
 
 .footerSocial .btnSocial:hover,
 .footerSocial .btnSocial:focus {
-	background-color: #FF9007;
-	color: white;
+  background-color: #ff9007;
+  color: white;
 }
 
 .footerSocial .btnSocial img {
-	display: block;
-	width: 40px;
-	height: 40px;
-	margin: 0 auto;
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
 }
 
 .footerCopyright {
-	padding: 8px 0;
-	color: #0E6FA9;
-	font-size: .7em;
-	text-transform: uppercase;
+  padding: 8px 0;
+  color: #0e6fa9;
+  font-size: 0.7em;
+  text-transform: uppercase;
 }
 
 /************* MEDIA QUERIES *************/
 
-@media (min-width: 1800px){
-	.portfolioDescrip {
-		padding-left: 200px;
-	}
+@media (min-width: 1800px) {
+  .portfolioDescrip {
+    padding-left: 200px;
+  }
 }
 
 /*Small devices and larger*/
 @media (min-width: 768px) {
-	#portfolioSection .portfolioItem {
-		margin: 0 0 30px;
-	}
+  #portfolioSection .portfolioItem {
+    margin: 0 0 30px;
+  }
 }
 
 /*Medium devices and smaller*/
 @media (max-width: 1199px) {
-	.colPortfolio {
-		text-align: center;
-		margin: 0 auto;
-	}
+  .colPortfolio {
+    text-align: center;
+    margin: 0 auto;
+  }
 
-	.colPortfolio .portfolioContent {
-		text-align: left;
-		padding: 0 15px;
-		max-width: 800px;
-		margin: 0 auto 10px auto;
-	}
+  .colPortfolio .portfolioContent {
+    text-align: left;
+    padding: 0 15px;
+    max-width: 800px;
+    margin: 0 auto 10px auto;
+  }
 
-	.portfolioItem {
-		max-width: 1200px;
-	}
+  .portfolioItem {
+    max-width: 1200px;
+  }
 
-	.portfolioButtonP {
-		padding-bottom: 20px;
-	}
+  .portfolioButtonP {
+    padding-bottom: 20px;
+  }
 
-	.rowPortfolio {
-		margin: 0 150px;
-	}
+  .rowPortfolio {
+    margin: 0 150px;
+  }
 
-	#portfolioSection .portfolioItem .portfolioLink .caption .captionContent {
-		font-size: 20px;
-	}
+  #portfolioSection .portfolioItem .portfolioLink .caption .captionContent {
+    font-size: 20px;
+  }
 
-	.imgPortfolio {
-		margin: 0 auto;
-	}
+  .imgPortfolio {
+    margin: 0 auto;
+  }
 }
 
 /*Extra small & small devices*/
 @media (max-width: 991px) {
-	#aboutDescription {
-		text-align: center;
-	}
+  #aboutDescription {
+    text-align: center;
+  }
 
-	.text-sm-center {
-		text-align: center;
-	}
+  .text-sm-center {
+    text-align: center;
+  }
 
-	.text-sm-center .imgProfile {
-		margin: 0 auto;
-		padding-bottom: 8px;
-	}
+  .text-sm-center .imgProfile {
+    margin: 0 auto;
+    padding-bottom: 8px;
+  }
 
-	.rowPortfolio {
-		margin: 0 20px;
-	}
+  .rowPortfolio {
+    margin: 0 20px;
+  }
 }
 
 /*Extra small devices only*/
 @media (max-width: 767px) {
-	/*reduces height to match smaller navbar on mobile*/
-	.anchor {
-		height: 60px;
-		margin-top: -60px;
-	}
+  /*reduces height to match smaller navbar on mobile*/
+  .anchor {
+    height: 60px;
+    margin-top: -60px;
+  }
 }
-
-
